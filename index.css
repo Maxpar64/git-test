@@ -1,0 +1,89 @@
+.banner{
+    width: 100%;
+    height: 650px;
+}
+
+main{
+    background: linear-gradient(white, rgb(34, 34, 34));
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal, .diferenciales{
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.map{
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+.map p{
+    text-align: center;
+    margin: 0 0 2em;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.imgDiferencia{
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 25px #000000;
+}
+
+.imgDiferencia:hover{
+    opacity: 0.3;
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.items{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+.items li{
+    line-height: 1.5;
+}
+
+.items li::before{
+    content: "*";
+}
+
+.items li:first-child{
+    font-weight: bold;
+}
+
+.video{
+    width: 560px;
+    padding: 2em;
+    margin: 0 auto;
+}
